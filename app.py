@@ -78,12 +78,12 @@ async def get_audio_file(token: str):
 
     return FileResponse(filepath.as_posix(), filename = filename)
 
-
-if __name__ == "__main__":
-    uvicorn.run(
-        "app:app", 
-        host = "0.0.0.0", 
-        port = 8080, 
-        reload = True, 
-        debug = True
-    )
+# NOTE: uncommand this in local server.
+# if __name__ == "__main__":
+#     uvicorn.run(
+#         "app:app", 
+#         host = "0.0.0.0", 
+#         port = 8080, 
+#         reload = True, 
+#         debug = True
+#     )
