@@ -17,6 +17,10 @@ PATH = "local/db.json"
 app = FastAPI()
 enc = Encrypt()
 
+@app.get("/")
+async def root():
+    return {"status_code" : 200, "message" : "Success."}
+
 @app.post("/upload/data")
 async def upload_data(request: Request):
     """
