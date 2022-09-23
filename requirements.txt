@@ -17,7 +17,7 @@ pyparsing==3.0.9
 pypiwin32==223
 python-multipart==0.0.5
 pyttsx3==2.90
-pywin32==304
+# pywin32==304
 PyYAML==6.0
 regex==2022.9.13
 requests==2.28.1
