@@ -3,7 +3,11 @@ from pathlib import Path
 from fastapi.responses import FileResponse
 from fastapi import FastAPI, UploadFile, Request
 
-from core.utils import *
+from core.utils import (
+    save_data_to_temp,
+    convert_wav_to_text,
+    convert_text_to_audio
+    )
 from core.secret import Encrypt
 from core.compare import find_closest
 

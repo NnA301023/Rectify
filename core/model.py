@@ -1,3 +1,4 @@
+"""
 import numpy as np
 from numpy.linalg import norm
 from transformers import BertTokenizer 
@@ -11,3 +12,4 @@ def cosine(matrix_a, matrix_b):
 
 def tokenize(text):
     return np.array(TOKENIZER.convert_token_to_ids(TOKENIZER.tokenize(text)))
+"""
