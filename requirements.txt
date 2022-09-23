@@ -34,7 +34,6 @@
 
 fastapi
 uvicorn
-PyAudio==0.2.12
 SpeechRecognition
 tqdm 
 starlette
